@@ -8,7 +8,7 @@ x=float(input("Enter 1st number "))
 y=float(input("Enter 2nd number "))
 z=float(input("Enter 3rd number "))
 
-# only odd numbers are retained all else has -infinity
+# only odd numbers (which must be integers) are retained all else has -infinity
 x= x if x%2==1 else float('-inf')
 y= y if y%2==1 else float('-inf')
 z= z if z%2==1 else float('-inf')
